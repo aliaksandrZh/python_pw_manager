@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pw-manager"
+version = "0.1.0"
+description = ""
+authors = ["aliaksandr.zhebit <aliaksandr.zhebit@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pw_manager"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyperclip = "^1.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
